@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +9,8 @@ public class Movi : MonoBehaviour
 
     float dt;
 
+
+    // Start is called before the first frame update
     void Start()
     {
         Time.fixedDeltaTime = 0.02f;
@@ -26,7 +28,7 @@ public class Movi : MonoBehaviour
         return F_Vect;
 
     }
-
+    // Update is called once per frame
     void FixedUpdate()
     {
         Debug.Log(dt);
